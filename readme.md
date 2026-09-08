@@ -1,5 +1,5 @@
 # Time Series Prediction and Anomaly Detection in EEG Data
-The repository contains the code used in the project described in `report.pdf`. The project attempts to use a encoder-decoder to predict and detect anomalies in multivariate EGG time series data. Both the encoder and decoder consists of a multi-layer LSTM. The models are implemented in Python using PyTorch. Below is a very short description of the different files in the repository.
+The repository contains the code used in the project described in `report.pdf`. The project attempts to use an encoder-decoder model to predict and detect anomalies in multivariate EGG time series data. Both the encoder and decoder consists of a multi-layer LSTM. The models are implemented in Python using PyTorch. Below is a very short description of the different files in the repository.
 
 ### Notebook files:
 
