@@ -7,33 +7,19 @@ The repository contains the code used in the project described in `report.pdf`. 
 
 - `cross_validation.ipynb`: Notebook used for evaluating the model by cross-validation
 
-`benchmark_run.ipynb`
+- `benchmark_run.ipynb`: Testing out the benchmark model to compare with the results from cross validation
 
-Testing out the benchmark model to compare with the results from cross validation
-
-`anomaly_detection.ipynb`
-
-Trying to use the benchmark model and the seq2seq model for anomaly detection
+- `anomaly_detection.ipynb`: Trying to use the benchmark model and the seq2seq model for anomaly detection
 
 ### .py files:
 
-`two_way_seq2seq.py`
+- `two_way_seq2seq.py`: Where the predictive model is defined
 
-Where the predictive model is defined
+- `bidirectional_dataset.py`: The dataset used for training and evaluating the predictive model
 
-`bidirectional_dataset.py`
+- `anomaly_dataset.py`: The dataset where synthetic anomalies are inserted into sections
 
-The dataset used for training and evaluating the predictive model
+- `trainer.py`: The training loop used
 
-`anomaly_dataset.py`
-
-The dataset where synthetic anomalies are inserted into sections
-
-`trainer.py`
-
-The training loop used
-
-`plotting.py`
-
-Functions used for making nice plots
+- `plotting.py`: Functions used for making nice plots
 
